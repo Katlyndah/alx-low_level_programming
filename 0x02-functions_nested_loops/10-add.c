@@ -2,7 +2,7 @@
 
 /**
  * add - Entry point
- * Description: adds two integers and returns the result.
+ * Description: adds two integers and returns the result
  * @x: parameter 1
  * @y: parameter 2
  * Return: x + y
