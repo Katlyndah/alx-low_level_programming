@@ -5,7 +5,7 @@
  * is_prime_number - check if n is a prime number
  * @n: int
  * Return: 0 or 1
- */l
+ */
 
 int is_prime_number(int n)
 {
