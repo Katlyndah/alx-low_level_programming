@@ -34,6 +34,9 @@ int **alloc_grid(int width, int height)
 			{
 				free(s[r]);
 			}
+			free(s);
+			return (NULL);
+		}
 
 			for (c = 0; c <= width; c++)
 			{
@@ -41,5 +44,5 @@ int **alloc_grid(int width, int height)
 			}
 		}
 		return (s);
-	}
 }
+
